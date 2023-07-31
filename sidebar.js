@@ -1,6 +1,6 @@
 function openPage(pageId) {
     const pages = document.getElementsByClassName('page');
-    for (let i = 0; i < pages.length; i++) {
+    pages.forEach(page => {
       pages[i].classList.remove('show');
     }
   
